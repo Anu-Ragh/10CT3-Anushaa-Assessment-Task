@@ -1,1 +1,0 @@
-# 10CT3-Anushaa-Assessment-Task
