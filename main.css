@@ -1,0 +1,171 @@
+
+body {
+    background-image: url(bgimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+    background-attachment: fixed;
+    color: white;
+    height: 747px;
+  }
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%; 
+  }
+
+.image-button {
+  background: none; 
+  border: none;     
+  padding: 25px;       
+  cursor: pointer; 
+}
+
+.button-container {
+  display: flex;                                           
+  flex-direction: column; 
+  align-items: flex-start; 
+  column-gap: 100px; 
+  margin-bottom: 30px;             
+  width: auto;            
+  margin-left: 20px;   
+}
+
+.image-button {
+  display: block;         
+}
+
+.image-button img {
+  width: 500px;         
+  height: auto;            
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 100%; /* Match the height of the title */
+  max-height: 150px; /* Adjust this value to match the title's height */
+  width: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Space between logo and title */
+  margin-left: 30px; 
+}
+
+.title {
+  height: 150px; /* Set the height of the title */
+  width: auto; /* Maintain aspect ratio */
+  margin-left: 150px;
+}
+
+.exit-button {
+  margin-top: 300px; /* Add 500px space above the button */
+  display: block; /* Ensure it behaves like a block element */
+}
+
+.link-button {
+  position: fixed; /* Fix the button to the viewport */
+  bottom: 20px; /* Distance from the bottom of the screen */
+  right: 20px; /* Distance from the right of the screen */
+  z-index: 1000; /* Ensure it stays on top of other elements */
+}
+
+.intro-text {
+  position: absolute;
+  top: 155px; /* Aligns the top of the text with the home button */
+  left: calc(20px + 500px + 30px); /* Aligns with the home button and adds a 30px gap */
+  right: 30px; /* Ensures the box is 20px from the right edge of the screen */
+  width: auto; /* Automatically adjust the width based on left and right positioning */
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #36454F;
+  margin-top: 35px; /* Space above the text */
+
+  /* Border styling */
+  border: 6.5px solid #3C5866;
+  border-radius: 35px;
+  padding: 20px;
+  background-color: #f9fbfc; /* Subtle background */
+  box-sizing: border-box;
+}
+
+.impact-one {
+  position: absolute;
+  top: 155px; /* Aligns the top of the text with the home button */
+  left: calc(20px + 500px + 30px); /* Aligns with the home button and adds a 30px gap */
+  right: 800px; /* Ensures the box is 20px from the right edge of the screen */
+  width: auto; /* Automatically adjust the width based on left and right positioning */
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #36454F;
+  margin-top: 35px; /* Space above the text */
+
+  /* Border styling */
+  border: 6.5px solid #3C5866;
+  border-radius: 35px;
+  padding: 20px;
+  background-color: #f9fbfc; /* Subtle background */
+  box-sizing: border-box;
+}
+
+.impact-two {
+  position: absolute;
+  top: 155px; /* Aligns the top of the text with the home button */
+  left: calc(20px + 500px + 30px + 600px); /* Aligns with the home button and adds a 30px gap */
+  right: 20; /* Ensures the box is 20px from the right edge of the screen */
+  width: auto; /* Automatically adjust the width based on left and right positioning */
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #36454F;
+  margin-top: 35px; /* Space above the text */
+
+  /* Border styling */
+  border: 6.5px solid #3C5866;
+  border-radius: 35px;
+  padding: 20px;
+  background-color: #f9fbfc; /* Subtle background */
+  box-sizing: border-box;
+}
+
+ 
+.graph-wrapper {
+  position: fixed;
+  top: 50%;
+  right: 30px; /* adjust how far from the edge */
+  transform: translateY(-50%);
+  z-index: 999; /* make sure it's on top */
+  }
+  
+.graph-container {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 15px;
+  color: #36454F;
+  width: 520px;
+  }
+  
+.controls {
+  margin-bottom: 10px;
+  }
+  
+#yearSelect {
+  padding: 5px;
+  font-size: 16px;
+  background-color: #e6f0ff;
+  border: 1px solid #004080;
+  border-radius: 5px;
+  }
+ 
